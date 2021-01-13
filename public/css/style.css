@@ -17,3 +17,60 @@ header {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+
+.orange {
+    color: #FA804C;
+}
+
+.purple {
+    color: #363958;
+}
+
+.intro {
+    background-color: #FFF9F4;
+}
+
+.intro h1 {
+    font-family: 'Bebas Neue', cursiv;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.btn-buy {
+    background-color: #3543BC;
+    color: #fff;
+}
+
+.casual-shoes h1 {
+    font-family: 'Bebas Neue', cursiv;
+}
+
+.casual-shoes img {
+    background-color: #f1f1f1;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.card-footer {
+    border: 0;
+}
