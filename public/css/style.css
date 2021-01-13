@@ -1,0 +1,19 @@
+header {
+    background-color: #FFF9F4;
+}
+
+.navbar-brand > img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar li a {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
