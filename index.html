@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="public/img/shoes/1.png" alt=""><span class="orange">Nike</span> <span class="purple">Shoe</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,13 +41,12 @@
         </nav>
     </header>
 
-    <main class="container">
-
+    <main class="container mt-5">
     <section class="intro">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 d-flex justify-content-center"><img height="407" width="407" src="public/img/shoes/2.png" alt=""></div>
-                <div class="col-md-6 mt-5">
+                <div class="col-md-6 d-flex justify-content-center order-2 order-md-1"><img height="407" width="407" src="public/img/shoes/2.png" alt=""></div>
+                <div class="col-md-6 mt-5 order-1 order-md-2">
                     <h1> <span class="orange">Nike React</span> <br> <span class="purple">Infinity Run 2</span></h1>
                     <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
                     <button class="btn btn-buy btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</button>
@@ -55,6 +54,7 @@
             </div>
         </div>
     </section>
+
     <section class="shoes mt-5">
       <div class="container">
         <h1 class="purple">Casual Shoes</h1>
@@ -150,33 +150,35 @@
     <section>
       <div class="container mt-5">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 order-2 order-md-1">
             <div class="row">
               <div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="public/img/icons/small1.png" alt=""></div>
               <div class="col-md-8 mt-5">
-                <h1 class="purple card-title">Find The Perfect Fit</h1>
-                <p class="card-text">Everybody is different, which is why we
+                <h1 class="purple card-title icon">Find The Perfect Fit</h1>
+                <p class="card-text icon">Everybody is different, which is why we
                   offer styles for every body.</p>
               </div>
             </div>
             <div class="row">
               <div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="public/img/icons/small2.png" alt=""></div>
               <div class="col-md-8 mt-5">
-                <h1 class="purple card-title">Free Exchanges</h1>
-                <p class="card-text">One of the many reasons you can shop
+                <h1 class="purple card-title icon">Free Exchanges</h1>
+                <p class="card-text icon">One of the many reasons you can shop
                   with peace of mind.</p>
               </div>
             </div>
             <div class="row">
               <div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="public/img/icons/small3.png" alt=""></div>
               <div class="col-md-8 mt-5">
-                <h1 class="purple card-title">Contact Our Seller</h1>
-                <p class="card-text">They are here to help you. That's quite 
+                <h1 class="purple card-title icon">Contact Our Seller</h1>
+                <p class="card-text icon">They are here to help you. That's quite 
                   literally what we pay them for.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 d-flex align-items-center"><img class="img-fluid" src="public/img/icons/big.png" alt=""></div>
+          <div class="col-md-6 d-flex align-items-center order-1 order-md-2">
+            <img class="img-fluid" src="public/img/icons/big.png" alt="">
+          </div>
         </div>
       </div>
     </section>

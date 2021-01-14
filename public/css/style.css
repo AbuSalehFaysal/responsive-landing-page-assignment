@@ -2,6 +2,10 @@ header {
     background-color: #FFF9F4;
 }
 
+.navbar {
+    background-color: #FFF9F4;
+}
+
 .navbar-brand > img {
     height: 50px;
     width: 50px;
@@ -51,6 +55,15 @@ header {
 
 .shoes h1 {
     font-family: 'Bebas Neue', cursiv;
+}
+
+@media (max-width: 576px) {
+    .shoes h1 {
+        text-align: center;
+    }
+    .icon {
+        text-align: center;
+    }
 }
 
 .shoes img {
