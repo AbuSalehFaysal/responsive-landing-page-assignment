@@ -49,11 +49,11 @@ header {
     color: #fff;
 }
 
-.casual-shoes h1 {
+.shoes h1 {
     font-family: 'Bebas Neue', cursiv;
 }
 
-.casual-shoes img {
+.shoes img {
     background-color: #f1f1f1;
 }
 
@@ -73,4 +73,12 @@ header {
 
 .card-footer {
     border: 0;
+}
+
+.carousel h1 {
+    font-family: 'Bebas Neue', cursiv;
+}
+
+.container h1 {
+    font-family: 'Bebas Neue', cursiv;
 }
